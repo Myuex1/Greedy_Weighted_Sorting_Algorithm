@@ -1,8 +1,7 @@
 # Summery
-Sequences a list of items by attribute similarity to minimize transition cost between states. At each step, the algorithm greedily selects the next item whose attributes are closest to the current one, reducing total accumulated difference across the full sequence.
+Sequences a list of items by attribute similarity to minimize transition cost between states. At each step the algorithm greedily selects the next item whose attributes are closest to the current one, reducing total accumulated difference across the full sequence.
 
-Originally built to schedule chemical foam production runs by minimizing pump ramp time between formulations. Generalizable to any domain where transition cost between ordered states is a function of attribute difference.
-
+Built to solve a real scheduling problem in a manufacturing environment, minimizing pump ramp time between production runs. The approach generalizes to any domain where order matters and transition cost is a function of how different two states are.
 ---
 
 ## How It Works
@@ -23,7 +22,7 @@ Originally built to schedule chemical foam production runs by minimizing pump ra
 ### Score Function
 
 ```
-Score = (Flow Rate * Weight) + (Density Difference * Weight)
+Score = (Flow Rate Differance * Weight) + (Density Difference * Weight)
 ```
 
 Adapt to your system — this is just a simplified example.
