@@ -1,5 +1,7 @@
 # Summery
+
 Sequences a list of items by attribute similarity to minimize transition cost between states. At each step the algorithm greedily selects the next item whose attributes are closest to the current one, reducing total accumulated difference across the full sequence.
+
 Built to solve a real scheduling problem in a manufacturing environment, minimizing pump ramp time between production runs. The approach generalizes to any domain where order matters and transition cost is a function of how different two states are.
 ---
 
