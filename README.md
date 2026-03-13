@@ -7,7 +7,6 @@ Built to solve a real scheduling problem in a manufacturing environment, minimiz
 ---
 
 ## How It Works
-## How It Works
 
 1. Define your items and their attributes (flow rate, density, etc.)
 2. Assign weights to each attribute reflecting their real-world cost impact
