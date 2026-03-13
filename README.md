@@ -1,3 +1,4 @@
+# Summery
 Sequences a list of items by attribute similarity to minimize transition cost between states. At each step, the algorithm greedily selects the next item whose attributes are closest to the current one, reducing total accumulated difference across the full sequence.
 
 Originally built to schedule chemical foam production runs by minimizing pump ramp time between formulations. Generalizable to any domain where transition cost between ordered states is a function of attribute difference.
